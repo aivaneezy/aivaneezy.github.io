@@ -38,7 +38,7 @@ I then tried turning the `email` parameter into an array, hoping the server woul
 
 ## Testing the Host header
 
-So I moved on to testing the `Host` header. Changing it to an arbitrary value just returned something like "proxy not found" (I'm not sure of the exact status code).
+So I moved on to testing the `Host` header. Changing it to an arbitrary value just returned 400 Bad Request, which suggested that the server might have some kind of hostname whitelist.
 
 After a while, I discovered that the server was expecting the domain name of the website inside the `Host` header. For example, when I put:
 
