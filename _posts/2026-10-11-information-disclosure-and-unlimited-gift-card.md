@@ -35,6 +35,8 @@ _The company's reply (company name and personal details redacted)_
 >
 > We look forward to hearing from you, and we thank you again for your cooperation.
 
+![thank-you](/assets/thank-you.gif)
+
 ## Bug 2: Unlimited Gift Card
 
 After the company gave me a gift card for reporting the previous bug, I immediately wanted to test whether I could find bugs in the purchasing process. While testing this, I noticed that the website has functionality that lets me gift someone a gift card by entering their email address or username. So I created a new account and began testing.
@@ -66,6 +68,8 @@ action=gvprocess&to_name=charles&email=charles%40example.com&amount=-1&message=
 ```
 
 To my surprise, the server accepted it, and instead of deducting from my funds, it **added** to them. Basically, you could enter any arbitrary negative number and your balance would just keep increasing.
+
+![thank-you](/assets/moula.gif)
 
 I reported this and got a response within 24 hours.
 
