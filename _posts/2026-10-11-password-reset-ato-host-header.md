@@ -6,9 +6,7 @@ tags: [host-header-injection, account-takeover, password-reset]
 description: How changing a single header let me redirect password reset links to my own website and steal reset tokens for any account.
 ---
 
-[Add your GIF here, for example:]
-
-`![Demo of the attack](/assets/host-header-demo.gif)`
+![lets go](/assets/host-header-demo.gif)
 
 How I found a simple bug that could let me take over anyone's account just by getting them to click a link.
 
